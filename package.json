@@ -2,9 +2,10 @@
   "name": "answer-system",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -15,6 +16,8 @@
     "@vitejs/plugin-vue": "^4.2.3"
   },
   "devDependencies": {
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "vue-tsc": "^1.8.5",
+    "@types/node": "^20.11.16"
   }
 } 
